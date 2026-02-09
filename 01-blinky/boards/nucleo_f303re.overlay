@@ -1,0 +1,11 @@
+/* 01-blinky/boards/nucleo_f303re.overlay */
+
+/ {
+    aliases {
+        /* * Map the C identifier "my_custom_led" to the hardware node "&green_led_2".
+         * * NOTE: In DTS we use hyphens (my-custom-led). 
+         * In C code, Zephyr automatically converts this to underscores (my_custom_led).
+         */
+        my-custom-led = &green_led_2;
+    };
+};

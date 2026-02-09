@@ -1,0 +1,20 @@
+# .gitignore
+# West Workspace
+.west/
+zephyr/
+modules/
+tools/
+bootloader/
+
+# Build Artifacts
+build/
+*.bin
+*.hex
+*.elf
+*.map
+
+# Editor/OS junk
+.vscode/
+.idea/
+.DS_Store
+**/*.swp
