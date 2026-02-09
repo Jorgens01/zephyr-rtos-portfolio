@@ -11,10 +11,9 @@ This repository documents my journey mastering the Zephyr Real-Time Operating Sy
 
 | # | Project | Key Concepts | Status |
 |:-:|:---|:---|:---|
-| **01** | [Blinky](./01-blinky) | Threading, DeviceTree Overlays, GPIO | ✅ Complete |
-| **02** | UART Shell | Interrupts, Serial Console, Logging | 🚧 Planned |
-| **03** | I2C Sensor | I2C Drivers, Sensor Subsystem | 🚧 Planned |
-
+| **01** | [Blinky](./01-blinky) | Threading, DeviceTree overlays, GPIO | ✅ Complete |
+| **02** | [UART Shell](./02-uart-shell) | Interrupts, Shell subsystem, Command parsing | ✅ Complete |
+| **03** | PWM Breathing LED | Timers, PWM Driver, Duty Cycle | 🚧 In Progress |
 ## 🚀 Getting started
 
 This repository uses a containerized toolchain to ensure "it works on your machine" immediately.
